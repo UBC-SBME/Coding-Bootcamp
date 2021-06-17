@@ -10,7 +10,7 @@ Throughout your career, you might use other languages too, like Rust or JavaScri
 
 ## 2) Choosing a New Language
 
-So you have chosen C as the basis for translating into your new language. The next question is, what language do you want to learn? For this course we will be focusing on Java, but in the future (or now, if you would prefer learning C# for CPEN 223) this is an important question you will need to answer. The best way to narrow things down is to think about what you are going to use the language for. Conveniently, this question is usually answered for us undergraduates. We need to learn the language for a course! In the future, when things are a bit more open ended, this question will become a bit more difficult to solve. Usually, looking at the features of the language is a good bet. Sometimes, looking at the libraries made for a language is more useful. As a reminder, libraries are a collection of pre-written code by other users of the language, typically designed for a specific purpose. For more specifics, look to the "Why So Many Languages" folder!
+So you have chosen C as the basis for translating into your new language. The next question is, what language do you want to learn? For this course we will be focusing on Java, but in the future (or now, if you would prefer learning C# for CPEN 223), this is an important question you will need to answer. The best way to narrow things down is to think about what you are going to use the language for. Conveniently, this question is usually answered for us undergraduates. We need to learn the language for a course! In the future, when things are a bit more open ended, this question will become a bit more difficult to solve. Usually, looking at the features of the language is a good bet. Sometimes, looking at the libraries available in the language is more useful. As a reminder, libraries are a collection of pre-written code by other users of the language, typically designed for a specific purpose. For more specifics, look to the "Why So Many Languages?" section.
 
 ## 3) Familiarizing Yourself With Some Basic Syntax Differences
 
@@ -29,13 +29,13 @@ class Main {
  }
 }
 ```
-You can immediately notice the differences between the two. Specifically, your main function has to be inside something called Main which is a class, has to have these weird “public static” keywords in it, and has an input variable called “String[] args”. As you might remember from APSC 160, void means a function returns nothing, so atleast you can recognize that. Without getting into the details of everything, the “String[] args” is an array of Strings (this might be new to you!) that represents the input arguments the user gives, and the rest of the extra stuff is a consequence of Java being built as an object oriented language. All of this can be safely ignored for now, though importantly the word after “class” must be the exact same as the file it is in (so expect the bit of code to be in Main.java). Just treat this code as a necessary boilerplate. We will cover all of this in future lessons.
+You can immediately notice the differences between the two. Specifically, your main function has to be inside something called `Main` which is a class, has to have these weird `public static` keywords in it, and has an input variable called `String[] args`. As you might remember from APSC 160, `void` means a function returns nothing, so at least you can recognize that. Without getting into the details of everything, the `String[] args` is an array of Strings (this might be new to you!) that represents the input arguments the user gives, and the rest of the extra stuff is a consequence of Java being built as an object oriented language. All of this can be safely ignored for now, though importantly the word after `class` must be the exact same as the file it is in (so expect the bit of code to be in Main.java). Just treat this code as a necessary boilerplate. We will cover all of this in future lessons.
 
-Some people find programming books useful. We personally recomend “Head First Java” as a way to learn a bit of Java in preparation for CPEN 221. You can probably find a PDF version online for free, if you know where to look.
+Some people find programming books useful. We recommend “Head First Java” as a way to learn a bit of Java in preparation for CPEN 221. 
 
 ## 4) Writing Your First Simple Program, and Some Companions
 
-Our next step on the journey of learning is to create a simple program just to get some idea of how your language works. For now, using an online coding platform is sufficient, though in the future installing the course require / community favourite IDE is a good idea (this will be done in lesson 2, don’t worry!). We would recommend using replit. It is an easy to use website that lets you program in many different languages, which is useful for this exercise!
+Our next step on the journey of learning is to create a simple program to get some idea of how your language works. For now, using an online coding platform is sufficient, though in the future installing an IDE is a good idea (this will be done in lesson 2, don’t worry!). We would recommend using replit to run the code for now. It is an easy to use website that lets you program in many different languages, which is useful for this exercise!
 
 Here is the classic “Hello World” program. It is simple, and usually it can give you some key insight into the particulars of a language. For example, our C version would look like:
 ```cpp
@@ -46,15 +46,18 @@ int main() {
 }
 ```
 
-This should look familiar, most of you have written this (or something similar) in APSC 160. How would we go about translating this to Java? Well, you could just google “how to write Hello World in Java,” but a better method is to google a more generic question, such as “how to print a string in Java”. [Let's google this together!](https://www.google.com/search?client=firefox-b-d&q=How+to+print+a+string+in+java)
+This should look familiar, most of you have written this (or something similar) in APSC 160. How would we go about translating this to Java? Well, you could just google “how to write Hello World in Java,” but a better method is to google a more generic question, such as “how to print a string in Java”. [Let's google this together!](https://www.google.com/search?q=How+to+print+a+string+in+java)
 
-And this is likely where you will meet the first party member on your quest: Stack Overflow. Stack Overflow is a fantastic website where users post programming questions and others answer them. Many of us have used this website hundreds (perhaps thousands) of times throughout our programming career. Our one tip is to try to never post on stack overflow. Usually your question has already been answered, and asking duplicate questions is poor practice. Only ask a question if you can not find a similar question, and be sure to format it all correctly (stack overflow has a guide for asking questions correctly).
+And this is likely where you will meet the first party member on your quest: Stack Overflow. Stack Overflow is a fantastic website where users post programming questions and others answer them. Many of us have used this website hundreds (perhaps thousands) of times throughout our programming career. Posting a question on stack overflow is almost always unnecessary since your question has usually already been asked and answered, and asking duplicate questions is poor practice. Only ask a question if you can not find a similar question, and be sure to format it all correctly (stack overflow has a guide for asking questions correctly).
 
-Another option is to google “how to print a string in Java, Java Doc”. This will lead to your next companion, the Java Documentation. Java Documentation is incredibly useful for learning how to use the built in types in Java. For this basic program, you won’t need to dive in too deeply, but when you start to use fancy types such as ArrayList, googling “Java Doc ArrayList” will give you a page with every single function that list can use. Extremely helpful!
+Another option is to google [“how to print a string in Java, Java Doc”](https://www.google.com/search?q=How+to+print+a+string+in+java+Java+Doc). This will lead to your next companion, the Java Documentation. Java Documentation is incredibly useful for learning how to use the built in types in Java. For this basic program, you won’t need to dive in too deeply, but when you start to use fancy data types such as ArrayList, googling “Java Doc ArrayList” will give you a page with every single function that list can use. Extremely helpful!
 
-Of course, don’t limit yourself to just the Java Documentation or Stack Overflow, there are many other websites that have useful programming knowledge / tutorials that you will discover on your quest.
+Of course, don’t limit yourself to just the Java Documentation or Stack Overflow. There are many other websites that have useful programming knowledge / tutorials that you will discover on your quest.
 
-With any luck you found out how to print a string. We suggest you try this yourself before looking at the answer, but it should look something like:
+With any luck you found out how to print a string. We suggest you try this yourself before looking at the answer. 
+
+It should look something like:
+
 ```java
 class Main {
  public static void main(String[] args) {
@@ -62,15 +65,15 @@ class Main {
  }
 }
 ```
-Despite the simplicity of this program, it has given you a future key insight about Java. Specifically, what is this business about “System.out.println?” Sure, the “println” vaguely looks like “printf”, but what about that odd “System.out.” before it? Keep this in the back of your head for now, we will cover this heavily in future lessons! For now, just treat the entire “System.out.println” as an oddly long function name.
+Despite the simplicity of this program, it has given you a future key insight about Java. Specifically, what is this business about `System.out.println`? Sure, the `println` vaguely looks like C's `printf`, but what about that odd `System.out.` before it? Keep this in the back of your head for now, we will cover this heavily in future lessons! For now, just treat the entire `System.out.println` as an oddly long function name.
 
 ## 5) Transfering Deeper Knowledge
 
-Now onto the fun stuff, translating a more difficult program. Now, you can either just think of some program off the top of your head and attempt to write it in Java (essentially turning pseudocode into a program), or you can first write a program in your basis language, C, and then translate that. The second option might not always be best. For example, say you want to learn how to multiply two matrices in MATLAB. Writing a program that does this in C is considerably harder than writing it in MATLAB, so method 1 is advisable. For the purposes of this lesson, we will go with option 2, as C and Java are pretty similar and we want to give you more practice in translating pseudocode. Option 1 is generally preffered. If you are confident, try directly writing the program in Java!
+Now onto the fun stuff: translating a more difficult program. Now, you can either just think of some program off the top of your head and attempt to write it in Java (essentially turning pseudocode into a program), or you can first write a program in your basis language, C, and then translate that. The second option might not always be best. For example, say you want to learn how to multiply two matrices in MATLAB. Writing a program that does this in C is considerably harder than writing it in MATLAB, so method 1 is advisable. For the purposes of this lesson, we will go with option 2, as C and Java are pretty similar and we want to give you more practice in translating code. Option 1 is generally preffered. If you are confident, try directly writing the program in Java!
 
 What should you aim to translate into your new language? Typically, it should just be whatever you need to work with at the time. For example, if you don't need to use some niche language feature, don't learn it. It would be useless to learn about intrinsics in C++ (a very complex but useful way to do calculations quickly) if you only want to print "Hello World." In our case, it is best to try to translate the bulk of our C knowledge from APSC 160 to Java. Specifically, a program that involves an array, an if-statement, a for-loop (or any kind of loop really), a print-statement, and a function should cover most of APSC 160.
 
-If you would like an exercise in reading pseudo code, try to translate this pseudo code into C (or directly into Java if you would like a challenge!)
+If you would like an exercise in reading pseudocode, try to translate this pseudocode into C (or directly into Java if you would like a challenge!)
 
 If you aren't familiar with pseudocode or want a refresher, check out the "Pseudocode, Why" folder in this lesson!
 ```
