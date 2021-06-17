@@ -76,6 +76,8 @@ What should you aim to translate into your new language? Typically, it should ju
 If you would like an exercise in reading pseudocode, try to translate this pseudocode into C (or directly into Java if you would like a challenge!)
 
 If you aren't familiar with pseudocode or want a refresher, check out the "Pseudocode, Why" folder in this lesson!
+
+Translate this pseudocode to C, and then to Java (or directly to Java):
 ```
 Main:
  Array foo = {0, 1, 2, 3, 4}
