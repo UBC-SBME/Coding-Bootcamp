@@ -1,3 +1,7 @@
+#TOOL INSTALLATION
+
+[Here is a video walkthrough of the installation!](https://www.youtube.com/watch?v=TaEfkkCy8xc)
+
 ## INSTALLING JAVA
 
 We need Java in order to compile and write our code for this course, so let's install it!
