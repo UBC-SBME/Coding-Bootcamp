@@ -18,7 +18,6 @@ If you are on MacOS git should be installed already or you may need to install X
 [This link will take you to the git download page, no matter what OS there are steps on how to install git](https://git-scm.com/downloads)
 
 Windows users: Just click on the windows link on the page from the link above and it should start a download. Run the file it downloads.
-Windows users also have to download git for windows, found [here!](https://gitforwindows.org/)
 
 ## CREATE A GitHub account
 
