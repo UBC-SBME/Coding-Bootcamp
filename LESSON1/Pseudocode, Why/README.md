@@ -81,7 +81,7 @@ for item in stocks:
   if ( item.count < 2 ):
     notification("Low stock", owner)
  ```
- Now we use a for loop to iterate over the individual items in the vending machine, and test each item individually to see if its stock is low (here, we're treating `item` as an object with `count` as a field - more on this later). 
+ Now we use a for loop to iterate over the individual items in the vending machine, and test each item individually to see if its stock is low (here, we're treating `item` as an object with `count` as a field - more on this later). Obviously item could be something else, and this will depend on the problem prompt more than anything. For example, you could have two arrays, `stock` and `id` where element `i` (with `i` being an index) in `stock` is the amount of that item left, and element `i` in `id` is the name of that item. If you would like, try to complete steps 4-6 of the problem solving technique on this prompt using the 2 array method in Java.
 
 
 For example, the `countEvenNum` function that we provide in **Assignment 1** can be broken down into three units: (1) make an array, (2) make `countEvenNum` function, and (3) return number of even elements; the `countEvenNum` function can be . Thus, when you begin to write your program, having these units in mind will allow you to work on each part individually. This will also make finding a specific problem a lot easier too since each part is sectioned off into units.
