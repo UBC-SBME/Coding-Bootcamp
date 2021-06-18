@@ -1,7 +1,3 @@
-# WELCOME TO LESSON 2!
-
-This lesson is where we will set up the tools required both for this course and CPEN 221. Let's get right into it!
-
 ## INSTALLING JAVA
 
 We need Java in order to compile and write our code for this course, so let's install it!
