@@ -1,0 +1,1 @@
+To ensure that you got the take aways of this lesson, get your code running in InteliJ, try to refactor 1 variable name, provide a screen shot of the output of the code from the IntelliJ console, and provide a link to your public github repository that has the code. The video in section 2 will be very useful!
