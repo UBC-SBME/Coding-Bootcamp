@@ -1,4 +1,4 @@
-#TOOL INSTALLATION
+# TOOL INSTALLATION
 
 [Here is a video walkthrough of the installation!](https://www.youtube.com/watch?v=TaEfkkCy8xc)
 
