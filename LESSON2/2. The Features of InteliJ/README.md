@@ -2,7 +2,9 @@
 
 The 3 most useful tools in InteliJ are the Debugger, the git tools, and the refactoring tools.
 
-Watch this lovely video to get an overview of all 3 (TODO ADD LINK ONCE UPLOADED)
+[Watch this lovely video to get an overview of all 3](https://youtu.be/QJOCNmhiBBU)
+
+One important note: For most github projects, you do not need to set the SDK to JDK 16 or do that whole business with making an SRC folder. Usually that is done for you (especially in CPEN 221 programming assignements).
 
 ## Some more info on debugging
 
