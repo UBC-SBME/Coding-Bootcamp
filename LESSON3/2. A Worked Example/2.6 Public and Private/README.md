@@ -38,9 +38,15 @@ public int getAge(){
 }
 ```
 Getters are typically simple, just being a one-line return statement. Some are more sophisticated, and preform some processing on the variable. It depends on the context. They are necessary when you have private instance variables!
+
 It is very important that your getter and sett are public methods, as they are otherwise useless!
+
 Now, for the purposes of CPEN 221, ALL INSTANCE VARIABLES SHOULD BE PRIVATE. In real life, it depends on the context. If this is a code base only you are working on, then keep them public if you would like. One benefit of private instance variables is the setters can be useful for catching bugs, as you know something has gone wrong if your code attempts to set an instance variable to something that does not make sense.
+
 For the purposes of this course, and getting you ready for CPEN 221, keep them private.
-What about Methods?
+
+## What about Methods?
+
 Methods are a bit different. A method the user has not right to use should be private. A great example of this is helper methods. Just like the helper functions you made in APSC 160, helper methods are small methods that are used by other methods to do a very specific action, and generally help make larger methods more readable. For example, say you make a `SoundComparer` class that has a method that compares two soundwaves using least squares. As the name implies, this algorithm has to square numbers at some point, so for readability purposes it might be a good idea to have a private method that squares the input. This squaring method is completely useless for our user, so it makes sense to keep it private.
+
 In summary, if it is a method who’s only purpose is to help another method, keep it private.
