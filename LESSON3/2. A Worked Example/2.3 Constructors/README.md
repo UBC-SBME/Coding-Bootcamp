@@ -1,4 +1,5 @@
-Constructors
+## Constructors
+
 Next, we want to have a constructor to set those variables to something. In Java, the constructor is a public method with the name of the class it constructs. Importantly, it has no return statement or type, not even a `void`! Just like any other method, it can take in variables, so let’s let it take a variable for the name, age and breed. We would get something like this.
 
 ```java
