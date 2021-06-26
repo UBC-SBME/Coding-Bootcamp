@@ -3,7 +3,7 @@
 ## Mapping
 You can think of a `Map` like a dictionary, every "word" has a corresponding definition. The definition of the word *depends* on the word itself rather than its location in the dictionary. `Map` has a set of keys that correspond to a set of values. Each key has a value, and you can not have two values for the same key.
 
-Another good analogy for this type of data structure is the definition of a mathmatical function. Every input has **exactly** one output. Logically, this also makes sense as if you trying to find a value using a key, then having several values per key will create chaos as you can't be sure which value is the one you want. You are used to a numbered key set (starting at zero) that correspond to objects; this is what most arrays are.
+Another good analogy for this type of data structure is the definition of a mathematical function. Every input has **exactly** one output. Logically, this also makes sense as if you trying to find a value using a key, then having several values per key will create chaos as you can't be sure which value is the one you want. You are used to a numbered key set (starting at zero) that correspond to objects; this is what most arrays are.
 
 | Key | Value|
 | --- | --- |
