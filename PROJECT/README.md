@@ -39,8 +39,8 @@ Being able to understand the cellular level interactions of different cell types
 
 The image below is from a paper that aims to simulate the dynamics of HIV-1 between HIV cells and white blood cells (lymphocytes). The paper can be found [here.](https://www.researchgate.net/profile/Monamorn-Precharattana/publication/283799493_Stochastic_modeling_for_dynamics_of_HIV-1_infection_using_cellular_automata_A_review/links/5a98cc1a45851535bce0dade/Stochastic-modeling-for-dynamics-of-HIV-1-infection-using-cellular-automata-A-review.pdf)
 
-<p><img width="100%" height="auto" src="https://op.mahidol.ac.th/ra/wp-content/uploads/2019/08/IL_2562-02-02.jpg"></p>
-<div style="text-align:center"><i>Stochastic Cellular Automata Model for HIV -1 Infection Dyanimics <a src="https://op.mahidol.ac.th/ra/en/2019/10/24/il_2562-02-2/">(Precharattana, 2019)</a></i></div>
+<p align="center"><img width="80%" height="auto" src="https://op.mahidol.ac.th/ra/wp-content/uploads/2019/08/IL_2562-02-02.jpg"> <br><i>Stochastic Cellular Automata Model for HIV -1 Infection Dyanimics <a src="https://op.mahidol.ac.th/ra/en/2019/10/24/il_2562-02-2/">(Precharattana, 2019)</a></i></p></p>
+
 </br>
 
 There are several very interesting areas of research that rely on some sort of simulation, such areas include:
