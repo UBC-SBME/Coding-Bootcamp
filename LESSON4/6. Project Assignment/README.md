@@ -4,7 +4,7 @@ You are a  researcher at the School of Biomedical Engineering (SBME) and are cur
 Now that you have made a cell type, you need to be able to define some its characteristics. This means defining some of the internal processes that makes a cell type function. This is where we being to translate our cell biology knowledge into the project. We want you to do this using the Java objects that you just learned about.
 
 <p align="center">
-  <img width="75%" height="auto" src="https://www.nature.com/scitable/content/ne0000/ne0000/ne0000/ne0000/14704902/U1CP1-5_ProkvsEukCell_ksm.jpg">
+  <img width="75%" height="auto" src="https://i.imgur.com/kMPIhE3.jpg">
   </br></br>
   <i>Image of basic eukaryotic cell (left) and prokaryotic cell (right) <a src="https://www.nature.com/scitable/topicpage/what-is-a-cell-14023083/">(Nature Education, 2014)</a></i>
 </p>
