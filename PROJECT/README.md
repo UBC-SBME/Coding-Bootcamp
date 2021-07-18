@@ -54,6 +54,27 @@ There are several very interesting areas of research that rely on some sort of s
 * Tissue Growth Simulation
   * [Tissue growth for 3D printed Scaffolds](https://link.springer.com/article/10.1007/s10237-018-1040-9)
 
+## Your Project
+
+Your project will be to use cellular automata to create a simulation of cancer cells vs. human cells. Specifically, your simulation will have 4 types of cells
+
+### `ImmuneCell`
+
+This cell fights cancer. Specifically, it will check arround its neighbourhood for `CancerCells`, pick one, and kill it, replacing it with a `DeadCell`
+
+### `TissueCell`
+
+The `TissueCell` exists to grow. All it does is check its neighbourhood for `DeadCell`. If one exists, it will "grow" a new `tissueCell` by replacing the `DeadCell` with a `TissueCell`
+
+### `DeadCell`
+
+This simple cell does nothing, and is only there to be interacted with by other cell types.
+
+### `CancerCell`
+
+The most complex cell, as it does does what both immune and tissue cells do! Specifically, a `CancerCell` will look at its neighbourhood and count the number of dead, tissue and immune cells around it, while also storing their location (it will have a seperate list for dead cell, tissue cell, and immune cell locations). It will then chose one of 4 actions depending on its local enviroment. If there are any number of dead cells, the cancer will choose one a "grow" into it, replacing it with a new `CancerCell`. If the number of tissue cells is greater than the number of immune cells, it will choose one and kill it, replacing it with a `DeadCell`. If the number of immune cells is greater than the number of tissue cells, it will attack an immune cell, potentially killing it. If the cancer cell is entirely surrounded by cancer cells then it will do nothing.
+
+This may sound complex, but we will build up to this through the weeks by completing the following tasks:
 
 ## Tasks
 Each task can be found in more details in the respective lesson project assignment.
