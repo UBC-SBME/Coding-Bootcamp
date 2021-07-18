@@ -68,8 +68,8 @@ Implement a Java object in your cell type object type, this way you can introduc
 You can define characteristics in any way that you think is appropriate to your cell type. This means you can declare properties that are pertinent to the cell type using java.util objects or have a method that uses java.util objects. Again, the main goal is to use and implement one of the main java objects.
 
 
-### Task 3
+### Task 3: Inheritance Using Your Cell Type
 Create a sub-class of your cell type class (the one you made in Task 2). Specifically, after lesson 5 where you learn about inheritance, you can now make sub-classes of your cell class that are more specific. For example, you can make a `TissueCell` class! See Assignment 4 for more details.
 
-### Task 4
+### Task 4: Finishing Touches
 Using polymorphism, finish your overarching project by implementing the logic of the simulation.
