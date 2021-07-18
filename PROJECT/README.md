@@ -58,11 +58,9 @@ There are several very interesting areas of research that rely on some sort of s
 ## Tasks
 Each task can be found in more details in the respective lesson project assignment.
 
-`TODO: Flesh this out a bit more
-
 
 ### Task 1: Make a Cell Class
-Make a cell type class
+Make a cell type class. Specifics of what methods and instance variables this class needs are in Assignment 3
 
 ### Task 2: Characteristics of Your Cell Type
 Implement a Java object in your cell type object type, this way you can introduce some characteristics of your cell type
@@ -70,9 +68,8 @@ Implement a Java object in your cell type object type, this way you can introduc
 You can define characteristics in any way that you think is appropriate to your cell type. This means you can declare properties that are pertinent to the cell type using java.util objects or have a method that uses java.util objects. Again, the main goal is to use and implement one of the main java objects.
 
 
-
 ### Task 3
-Create a sub-class of your cell type class (the one you made in Task 2)
+Create a sub-class of your cell type class (the one you made in Task 2). Specifically, after lesson 5 where you learn about inheritance, you can now make sub-classes of your cell class that are more specific. For example, you can make a `TissueCell` class! See Assignment 4 for more details.
 
 ### Task 4
-Using polymorphism, finish your overarching project.
+Using polymorphism, finish your overarching project by implementing the logic of the simulation.
