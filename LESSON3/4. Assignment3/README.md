@@ -33,4 +33,4 @@ Create a class for the overarching project called Cellular Automata that has:
 * Additionally, add a public method called `interactNeighbors` that returns nothing but takes a `ArrayList<Cell> neighbors` as an input. For now, leave this method blank.
 
 
-Feel free to add more detail to your cell type that you think belongs there. Alternatively, if you are especially ambitious, you can create multipotent stem cells (more specific stem cells). For example, you can create a  **hematopoietic stem cell** or perhaps **neural stem cells**.
+Feel free to add more detail to your cell type that you think belongs there. You are building up to your cell simulation, you can make it as complex as you want! Alternatively, if you are especially ambitious, you can create multipotent stem cells (more specific stem cells). For example, you can create a  **hematopoietic stem cell** or perhaps **neural stem cells**. This is not needed for the project, but could be fun practice
