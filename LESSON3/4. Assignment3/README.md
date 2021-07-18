@@ -16,19 +16,21 @@ You are *effectively* creating a virtual stem cell. Cool right?
 # Task 1: Create a cell class
 Create a class for the overarching project called Cellular Automata that has:
 
-* Private instance variables: `int cellHealth`, `String name`, and `boolean replicate`
-  * Where RESTRICTION, each with their getters and setters,
+* The following instance variables, each with their own getters and setters
+  * `int strength`: The strength of the cell used for combat simulation. It should be a positive number!
+  * `int x` and `int y`: The x and y coordinates of the cell, which should both be at least 0.
+  * `int id`: This will be used to distinguish between different cell types. Must be at least 0.
 
 
 * A default constructor with defaults
-  * `int cellHealth = 10;`
-  * `String name = "Paul"; // Change this`
-  * `boolean replicate = false;`
-
+  * `int strength = 0;`
+  * `int id = 0;`
+  * `int x = 0;`
+  * `int y = 0;`
 
 * Another constructor that lets the user set the variables as they please (you can use your setters in the constructor, by the way!).
 
-* Additionally, add a public method that checks to see if the cell needs to replicate.
+* Additionally, add a public method called `interactNeighbors` that returns nothing but takes a `ArrayList<Cell> neighbors` as an input. For now, leave this method blank.
 
 
 Feel free to add more detail to your cell type that you think belongs there. Alternatively, if you are especially ambitious, you can create multipotent stem cells (more specific stem cells). For example, you can create a  **hematopoietic stem cell** or perhaps **neural stem cells**.
