@@ -20,7 +20,7 @@ In this project, you are going to create a cellular automaton. A cellular automa
 * The object itself has a certain state (typically 0/off or 1/on)
 * Each object in the array has an adjacent neighbour object
 
-Let (x,y) denote the position of the central position. The entire table is an example of a neighbourhood for (x,y).
+Let (x,y) denote the coordinates of the central position. The entire table is an example of a neighbourhood for (x,y).
 
 
 |(x-1,y-1) | (x,y-1)| (x+1, y-1) |
@@ -34,19 +34,16 @@ An example of Conway's Game of Life in action:
 
 ![](https://cdn-images-1.medium.com/fit/t/1600/480/1*2c5Mfwq7mu0xajlLCmsCDQ.gif)
 
-### Why is it relevant to us?
-Being able to understand the cellular level interactions of different cell types can play an important role in guiding therapeutics or even giving insight into diagnostic solutions. There are currently several areas of research
+### Why is this relevant to us?
+Being able to understand the cellular level interactions of different cell types can play an important role in guiding therapeutics or even giving insight into diagnostic solutions. There are several active areas of research on this front.
 
-The image below is from a paper that aims to simulate the dynamics of HIV-1 between HIV cells and white blood cells (lymphocytes). The paper can be found [here.](https://www.researchgate.net/profile/Monamorn-Precharattana/publication/283799493_Stochastic_modeling_for_dynamics_of_HIV-1_infection_using_cellular_automata_A_review/links/5a98cc1a45851535bce0dade/Stochastic-modeling-for-dynamics-of-HIV-1-infection-using-cellular-automata-A-review.pdf)
+For example, the image below is from a research paper that aims to simulate the dynamics of HIV-1 between HIV cells and white blood cells (lymphocytes). The paper can be found [here.](https://www.researchgate.net/profile/Monamorn-Precharattana/publication/283799493_Stochastic_modeling_for_dynamics_of_HIV-1_infection_using_cellular_automata_A_review/links/5a98cc1a45851535bce0dade/Stochastic-modeling-for-dynamics-of-HIV-1-infection-using-cellular-automata-A-review.pdf)
 
 <p align="center"><img width="80%" height="auto" src="https://op.mahidol.ac.th/ra/wp-content/uploads/2019/08/IL_2562-02-02.jpg"> <br><i>Stochastic Cellular Automata Model for HIV -1 Infection Dyanimics <a src="https://op.mahidol.ac.th/ra/en/2019/10/24/il_2562-02-2/">(Precharattana, 2019)</a></i></p></p>
-
-</br>
 
 There are several very interesting areas of research that rely on some sort of simulation, such areas include:
 * Whole-Cell Modeling and Simulation
   * [A Brief Survey](https://link.springer.com/article/10.1007/s00354-019-00066-y#Abs1)
-
 
 * Tumour Growth Simulation
   * [A Novel Method for Simulating Cancer Growth](https://link.springer.com/chapter/10.1007/978-3-642-15979-4_15)
