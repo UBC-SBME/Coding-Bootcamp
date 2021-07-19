@@ -69,19 +69,19 @@ This simple cell does nothing, and is only there to be interacted with by other 
 
 ### `CancerCell`
 
-The most complex cell, as it does does what both immune and tissue cells do! Specifically, a `CancerCell` will look at its neighbourhood and count the number of dead, tissue and immune cells around it, while also storing their location (it will have a seperate list for dead cell, tissue cell, and immune cell locations). It will then chose one of 4 actions depending on its local enviroment. If there are any number of dead cells, the cancer will choose one a "grow" into it, replacing it with a new `CancerCell`. If the number of tissue cells is greater than the number of immune cells, it will choose one and kill it, replacing it with a `DeadCell`. If the number of immune cells is greater than the number of tissue cells, it will attack an immune cell, potentially killing it. If the cancer cell is entirely surrounded by cancer cells then it will do nothing.
+The most complex cell, as it does what both immune and tissue cells do! Specifically, a `CancerCell` will look at its neighbourhood and count the number of dead, tissue and immune cells around it, while also storing their location (it will have a seperate list for dead cell, tissue cell, and immune cell locations). It will then chose one of 4 actions depending on its local enviroment. If there are any number of dead cells, the cancer will choose one and "grow" into it, replacing it with a new `CancerCell`. If the number of tissue cells is greater than the number of immune cells, it will choose one and kill it, replacing it with a `DeadCell`. If the number of immune cells is greater than the number of tissue cells, it will attack an immune cell, potentially killing it. If the cancer cell is entirely surrounded by cancer cells then it will do nothing.
 
 This may sound complex, but we will build up to this through the weeks by completing the following tasks:
 
 ## Tasks
-Each task can be found in more details in the respective lesson project assignment.
+Each task can be found in more detail in the respective lesson project assignment.
 
 
 ### Task 1: Make a Cell Class
-Make a cell type class. Specifics of what methods and instance variables this class needs are in Assignment 3
+Make a cell type class. Specifics of what methods and instance variables this class needs are in Assignment 3.
 
 ### Task 2: Characteristics of Your Cell Type
-Implement a Java object in your cell type object type, this way you can introduce some characteristics of your cell type
+Implement a Java object in your cell type object type, this way you can introduce some characteristics of your cell type.
 
 You can define characteristics in any way that you think is appropriate to your cell type. This means you can declare properties that are pertinent to the cell type using java.util objects or have a method that uses java.util objects. Again, the main goal is to use and implement one of the main java objects.
 
