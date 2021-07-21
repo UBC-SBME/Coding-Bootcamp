@@ -27,8 +27,9 @@ The `HashSet` class is another data class from the `java.utils` package, just li
   * Ex) Suppose you have a set: `HashSet<String> strSet = new HashSet<String>()`
   * You can **not** do `strSet[0]`. **This is an illegal operation** (in programming).
 
-### Motivating Examples
-`TODO: List of courses that BMEG students have to take`
+### Motivating Example
+
+Lets sauy you want to store a list of courses that BMEG students have to take to graduate. There would be no duplicate course (luckily, you only have to take CHBE 251 once), so using a set would be perfect for this data!
 
 ## Assignment
 Go to any one of the following resources and begin learning how to use `HashSet`.
