@@ -37,7 +37,7 @@ public int getAge(){
     return this.age;
 }
 ```
-Getters are typically simple, just being a one-line return statement. Some are more sophisticated, and preform some processing on the variable. It depends on the context. They are necessary when you have private instance variables!
+Getters are typically simple, just being a one-line return statement. Some are more sophisticated, and preform some processing on the variable. Importantly, your getter should always return a COPY of the instance variable if you want to protect it. What does this mean? This is a huge rabit hole that has an entire unit deticated to in in CPEN 221/223, but what you need to know now is if it is a primitive type (integers, etc) then returning it directly is fine as Java will return a copy, but if it is a class (String, for example) then see if the class you want to return has a `copy` method, and use it to return a copy of it. Getters are necessary when you want your user to have access to private instance variables!
 
 It is very important that your getter and sett are public methods, as they are otherwise useless!
 
