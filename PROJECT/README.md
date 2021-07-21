@@ -91,3 +91,7 @@ Create a sub-class of your cell type class (the one you made in Task 2). Specifi
 
 ### Task 4: Finishing Touches
 Using polymorphism, finish your overarching project by implementing the logic of the simulation.
+
+This is might seem complex, and that is because for your first real obeject oriented program it is. Complex problems are all we have left today, the trivial ones have been solved. Feel free to goto office hours and post on Piazza! After completing this project, you should be more than ready for CPEN 221/223!
+
+Also in those courses you will have "Mini-Projects" as assignments. This is good prep for that, though it might be considered a "Mini-Mini-Project" by Sathish.
