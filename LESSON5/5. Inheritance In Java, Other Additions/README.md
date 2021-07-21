@@ -13,7 +13,7 @@ public class MyPetChihuahua extends MyPetDog{
         System.out.println(“chomp”);
     }
 }
-
+```
 Constructors are also the same business, and can also benefit from the `super` keyword. As we added this new instance variable, we will need to set it with the constructor, so we just make one. Here is a quick example.
 
 ```java
