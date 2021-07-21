@@ -37,7 +37,7 @@ One potential use of an arraylist is storing data that can have duplicates. For 
 ### Note
 Whenever you are introduced to a new data class, you should always investigate its Java documentation to get a better understanding of how you can use it. Know how to use your tools before actually using them. Thus, take a look at the [ArrayList doc](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html).
 
-Something that you will notice is this new bit of syntax, the <b>`<E>`</b>. The `<E>` is the **type parameter**. This just the data **type** of the `ArrayList`. For example, this could be `Integer`, `String`, or even `MyPetDog` (from Lesson 3). The `<E>` just tells Java what type the objects in the ArrayList are (ArrayList of Integers, ArrayList of Strings, etc).
+Something that you will notice is this new bit of syntax, the <b>`<E>`</b>. The `<E>` is the **type parameter**. This just the data **type** the `ArrayList` holds. For example, this could be `Integer`, `String`, or even `MyPetDog` (from Lesson 3). The `<E>` just tells Java what type the objects in the ArrayList are (ArrayList of Integers, ArrayList of Strings, etc).
 
 #### Examples
 * `ArrayList<String> arrLst = new ArrayList<String>();`
