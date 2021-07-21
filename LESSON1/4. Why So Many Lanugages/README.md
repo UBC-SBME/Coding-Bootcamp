@@ -61,7 +61,7 @@ But this is not possible in Python.
 
 Finally, Python is notably slow by default, as each line is complied at run time. It is a great scripting language, and easy to use, but if you want speed use C++.
 
-Python has a lot of useful libraries, making it almost the swiss army knife of languages. It has great libraries for scientific data analysis (SciPy, Numpy, Jupyter Notebook, MatPlotLib), signal processing (SciPy), basic game creation (Pygame), and machine learning (Pytorch). The best part is each of these libraries is mostly written in C, so they are actually fast as runtime. The bad part is each tries to include the syllable "Py" in its name, which just kinda looks tacky.
+Python has a lot of useful libraries, making it almost the swiss army knife of languages. It has great libraries for scientific data analysis (SciPy, Numpy, Jupyter Notebook, MatPlotLib), signal processing (SciPy), basic game creation (Pygame), and machine learning (Pytorch). The best part is each of these libraries is mostly written in C, so they are actually fast at runtime. The bad part is each tries to include the syllable "Py" in its name, which just kinda looks tacky.
 
 ## R
 
