@@ -27,9 +27,43 @@ The `HashSet` class is another data class from the `java.utils` package, just li
   * Ex) Suppose you have a set: `HashSet<String> strSet = new HashSet<String>()`
   * You can **not** do `strSet[0]`. **This is an illegal operation** (in programming).
 
+### Wait, How do I Iterate Through a Set Then?
+
+Remember our friend the for loop? Well, Java has the for loops cool cousin, the for each loop. The for each loop is a way to iterate through a container quickly and easily. This can be used to iterate through any type of collection, though we will find it useful for both sets and lists. Here is the base syntax for it.
+
+```java
+for (type var : array) 
+{ 
+    statements using var;
+}
+```
+This is equivalent to
+
+```java
+for (int i=0; i<arr.length; i++) 
+{ 
+    type var = arr[i];
+    statements using var;
+}
+```
+
+But in the for each loop, `array` can be any container. This is useful if your collection does not allow you to grab elements using `[i]`.
+
+The way to read this code is "for each element of type `x` in collection `y`, do 'statement'". 
+
+Here is an example
+```java
+HashSet<String> studentIDs; //a set of student IDs
+for(String id : studentIDs){
+{
+    System.out.println(id);
+}
+```
+You can read this as "For each element of type `string` in `studentIDs`, print it"
+
 ### Motivating Example
 
-Lets sauy you want to store a list of courses that BMEG students have to take to graduate. There would be no duplicate course (luckily, you only have to take CHBE 251 once), so using a set would be perfect for this data!
+Lets say you want to store a list of courses that BMEG students have to take to graduate. There would be no duplicate course (luckily, you only have to take CHBE 251 once), so using a set would be perfect for this data!
 
 ## Assignment
 Go to any one of the following resources and begin learning how to use `HashSet`.
