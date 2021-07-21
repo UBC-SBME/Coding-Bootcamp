@@ -41,7 +41,12 @@ Here are some examples of you can initialize a `HashMap` variable:
 
 
 ### Motivating Example
-`TODO: Key-value pair of BMEG student to grades`
+
+Say you are the TA for a course and must store the grade each student got on their midterm. This would be a great use for maps, as the key could be a student number and the value would be their grade.
+
+### Return of The Set
+
+Say you want to iterate through all keys of a map. How would you do that? Well, did you notice that each key maps to a unique value, which implies that each key is unique? What other container do we know of that is only filled with unique elements? Thats right, a set! In Java, any map has a method called `keySet()` which will return a set that contains every key in the map. This can let you iterate through the map by iterating through `keySet()` and using `get()` on the map!
 
 ## Assignment
 Go to any one of the following resources and begin learning how to use `HashMap`.
