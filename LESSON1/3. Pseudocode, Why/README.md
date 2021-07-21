@@ -52,7 +52,7 @@ endif
 ## Why do we need it
 Pseudocode is used everywhere, including in algorithmic research, software design prototyping, and even in a lot of math problems. Computers are excellent in executing instructions, so being able to adequately articulate the list of instructions you want the computer to preform is essential in creating programs - especially if you are collaborating with other humans!
 
-<code><mark> We should move this somewhere else </mark></code>
+
 ## How to write pseudocode
 We strongly suggest that when you are attempting to write pseudocode, that you break the algorithm into simple units. Here, we will go though an example together. 
 
