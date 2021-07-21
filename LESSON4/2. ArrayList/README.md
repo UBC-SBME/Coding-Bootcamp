@@ -31,7 +31,8 @@ The biggest advantages of using an `ArrayList` are:
 The biggest difference between `ArrayList` and other data objects in Java is that `ArrayList` **allow duplicates**. This is very important and should become something that you exploit in your code.
 
 ### Motivating Example
-`TODO: List of each BMEG student's first name`
+
+One potential use of an arraylist is storing data that can have duplicates. For example, say you want to store the first name of every BMEG student. This will surely have duplicates (there is probably more than one John or Peter in BMEG), so it would make sense to store this in an array list. The duplicates are helpful here, as you can determine the most common name in BMEG
 
 ### Note
 Whenever you are introduced to a new data class, you should always investigate its Java documentation to get a better understanding of how you can use it. Know how to use your tools before actually using them. Thus, take a look at the [ArrayList doc](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html).
