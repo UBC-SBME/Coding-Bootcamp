@@ -89,6 +89,9 @@ def towers_of_hanoi(n, src, dst, tmp):
 ```
 
 
+
+If you feel as though this explanation doesn't make too much sense, check out [Jeff E's notes on recursion](http://jeffe.cs.illinois.edu/teaching/algorithms/book/01-recursion.pdf). He goes into a lot more detail about recursion in general.
+
 ## Assignment
 Your job is to write a recursive function for creating the Fibonacci sequence. If you are unfamiliar with the Fibonacci sequence, the n-th element in the sequence is the sum of the previous two elements (`n-1` + `n-2`).
 
@@ -97,3 +100,6 @@ Eg) 1, 1, 2, 3, 5, 8, 13, 21, 32, 55 ...
 For example, the sixth term (8), is the sum of the fifth term (5) and the fourth term (3). Every single element is the sum of the previous two elements.
 
 **TODO:** Implement the Fibonacci sequence in Java (or some other programming language).
+
+### Deliverables
+* Programming file of Fibonacci code
