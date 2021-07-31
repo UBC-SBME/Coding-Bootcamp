@@ -80,12 +80,12 @@ To fix the issue we had in this  example, we defined a base case of `factorial(1
 | t = 0 |  1 |  2 |  3 | 4 | 5 |
 
 ### Recursive Step
-Thinking of a recursive step is a very important step in building recursive code. The approach we recommend that you take is by asking yourself "How would the answer to a **smaller** case of the problem help me get to an answer to the larger case?". Basically, break the complex operation down into a more simple operation; once you have that simple operation, you can write the code for it and finish your program.
+Thinking of a recursive step is a very important step in building recursive code. The approach we recommend that you take is by asking yourself "How would the answer to a **smaller** case of the problem help me get to an answer to the larger case?". Basically, break the complex operation down into a more simple operation; once you have that simple operation, you can wri2te the code for it and finish your program.
 
 Lets, elaborate on this process:
 
 When your designing a recursive function, we recommend that you go through this thought process:
-
+git
 1. **Break the problem you are trying to solve, into a simpler one**, even if its only one step simpler
 
 2. **Believe that your function will solve the simple problem**. Trust that you can solve this simple problem, like really believe it
@@ -96,8 +96,7 @@ Like all things, this makes more sense with an example. Lets go ahead and use th
 
 **If you haven't done the assignment, please do before reading the example section**
 
-<br>
-<details><summary>Fibonacci Example</summary>
+### Fibonacci Example
 
 Let's preform step one, breaking the complex problem down into the simpler one. Thus, in order to compute the Fibonacci term of one term we need to compute the sum of the two previous Fibonacci term.
 

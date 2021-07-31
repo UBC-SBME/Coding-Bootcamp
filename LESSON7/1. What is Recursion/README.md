@@ -16,7 +16,7 @@ An example of recursion in nature is the idea of a tree branch. A tree branch co
 <p align="center">
 <img src="https://learning.oreilly.com/library/view/introduction-to-recursive/9781351647175/images/fig1_1.jpg" />
 </p>
-<p align="center">Examples of recursive entities <a>(Introduction to Recursive Programming, 2017)</a></p>
+<p align="center">Examples of recursive entities <a href="https://learning.oreilly.com/library/view/introduction-to-recursive/9781351647175/">(Introduction to Recursive Programming, 2017)</a></p>
 
 
 
@@ -67,13 +67,13 @@ If you're not familiar with the Tower of Hanoi, its a puzzle published by the Fr
 
 Okay, let's use the idea of recursion again. Instead of trying to solve the entire puzzle at once, let's focus on one simple step. Our complex operation is to move all the disks from one side to the other but not putting a large disk on a smaller disk.
 
-The most simple operation that we can do is *move the largest diameter disk* to the other side. We can't do this at this first since so many other disks are in the way. So, we try to move the *next largest diameter disk* to the spare placeholder rod (the middle one). We essentially construct the entire stack of disks again, **minus the largest disk**, in the middle. It will look like this:
+The most simple operation that we can do is *move the largest diameter disk* to the other side. We can't do this at this first since so many other disks are in the way. So, we try to move the *next largest diameter disk* to the spare placeholder rod (the middle rod). We essentially construct the entire stack of disks again, **minus the largest disk**, in the middle. It will look like this:
 
 <p align="center">
 <img src="part 1.JPG" />
 </p>
 
-Now we can move the largest diameter disk to the other side. That's it, we're done. Once we've defined this simple operation, move the largest disk to the other side and move anything in the way to the spare placeholder rod, we are done the program.
+Now we can move the largest diameter disk to the other side. That's it, we're done. Once we've defined this simple operation, It will repeat itself for every other large diameter disk and solve it self. We only defined one simple operation: move the largest disk to the other side and move anything in the way to the spare placeholder rod and we were able to solve the program. Well, almost.
 
 Remember how in example 1 the program would run forever if we didn't specify an exit condition, well we also need to specify an exit condition here. The exit condition in our case is if there are no more disks (n = 0; where n is number of disks)
 
