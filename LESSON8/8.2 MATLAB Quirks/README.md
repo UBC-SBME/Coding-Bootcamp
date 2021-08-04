@@ -34,7 +34,7 @@ In MATLAB, you do not have to end a line with `;`, but it is recomended. Unlike 
 So how does MATLAB know when a line ends? Like Python, MATLAB loves white space. Statements are seperated onto their own lines. This also means that for for loops or if statements, code in the body of the for loop or if statement is indented. Here is an example
 ```MATLAB
 if x > 1
-  x = x + 1
+  x = x + 1;
 end
 ```
 Notice the indent. Additionally, you need to tell matlab if a for loop or if statement ends by typing `end`. How fun.
