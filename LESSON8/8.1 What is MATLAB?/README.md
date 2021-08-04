@@ -1,6 +1,6 @@
 # What is MATLAB
 
- 	![Behold, death](Matlab_Logo.png)
+![Behold, death](Matlab_Logo.png)
 
 
 MATLAB is technically a programming language. It traces its origins all the way back to the 1970s, and for some reason is still used today. MATLAB is made by a company called MathWorks, and, as the name implies, is very useful for math. Basically, if you want to plot a function, or do something that is even vaguely related to math, you can probably do it somewhat easily in MATLAB. That is one of MATLAB's strongest features. It is old, and because of this has hundreds of user made packages that can do just about anything, from signal processing to image processing to numerical analysis of PDEs to controll systems. 
