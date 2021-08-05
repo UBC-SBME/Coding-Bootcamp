@@ -14,7 +14,7 @@ for i = 1:size(A,1)
 end
 ```
 
-And sure this will work, or I can be lazy. [Lets litterally google "matlab add 1 to every element in an array" and click on the first result](https://www.mathworks.com/matlabcentral/answers/398433-how-to-add-a-constant-to-all-the-elements-of-the-matrix)
+And sure this will work, or I can be lazy. [Lets literally google "matlab add 1 to every element in an array" and click on the first result](https://www.mathworks.com/matlabcentral/answers/398433-how-to-add-a-constant-to-all-the-elements-of-the-matrix)
 
 Would you look at that, we can just do this instead:
 
