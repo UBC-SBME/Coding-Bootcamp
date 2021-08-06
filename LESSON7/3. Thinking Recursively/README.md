@@ -14,7 +14,7 @@ We will also reference the steps that you should follow when writing recursive c
 
 
 ## Strategies to Recursion
-We will focus on recursive programs that solve computational problems, which means the problem must be
+We will focus on recursive programs that solve computational problems, which means most problems will have an input and output. Thus, think about the following stratagies.
 
 ### Decomposing Complexity
 <p align="center">
