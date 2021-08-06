@@ -8,3 +8,5 @@ MATLAB is technically a programming language. It traces its origins all the way 
 MATLAB is sadly going to be a fun part of your degree from now on. A lot of your proffessors have used this language in the past, and they aren't stopping now. In particular, it is used often in BMEG 230, BMEG 371, BMEG 320, BMEG 321 and BMEG 357. All of these course cover different subjects (from biomechanics to PDEs to signal processing), which goes to show how diverse MATLAB can be with is numerous packages.
 
 This final lesson will just go over how to wrangle this language into doing what you want to, and the mindset you should be in when solving problems for it.
+
+As an aside, for your own personal projects Python can replace MATLAB for the most part and is often better, but you should use whatever you are most comfortable with!
