@@ -3,8 +3,8 @@
 Let’s start to fill out our instance variables. Instance variables in Java are going to look a lot like those global variables you were told to never use in APSC 160. They will be within the curly braces of the object, but outside of any method. Let’s add our variables to this.
 ```java
 public class MyPetDog{
-    public string name;
-    public string breed;
+    public String name;
+    public String breed;
     public int age;
 }
 ```
