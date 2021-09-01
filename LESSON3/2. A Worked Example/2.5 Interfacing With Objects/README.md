@@ -4,11 +4,11 @@ Object oriented programing is based in the idea of “noun.verb” where the nou
 
 ```java
 public class MyPetDog{
-    public string name;
-    public string breed;
+    public String name;
+    public String breed;
     public int age;
 
-    public MyPetDog(string name, string breed, int age){
+    public MyPetDog(String name, String breed, int age){
         this.name = name;
         this.breed = breed;
         this.age = age;
