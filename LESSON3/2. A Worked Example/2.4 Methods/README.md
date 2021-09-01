@@ -3,11 +3,11 @@
 Methods are very similar in syntax to the function you have written in C. Lets write that example method, `bark` we talked about earlier. This method just gets the dog to bark, so it will print something to the terminal, will not take in any variables, and will not return anything. Adding it to our code will give use something that looks like
 ```java
 public class MyPetDog{
-    public string name;
-    public string breed;
+    public String name;
+    public String breed;
     public int age;
 
-    public MyPetDog(string name, string breed, int age){
+    public MyPetDog(String name, String breed, int age){
         this.name = name;
         this.breed = breed;
         this.age = age;
