@@ -4,11 +4,11 @@ Next, we want to have a constructor to set those variables to something. In Java
 
 ```java
 public class MyPetDog{
-    public string name;
-    public string breed;
+    public String name;
+    public String breed;
     public int age;
 
-    public MyPetDog(string name, string breed, int age){
+    public MyPetDog(String name, String breed, int age){
         this.name = name;
         this.breed = breed;
         this.age = age;
@@ -18,7 +18,7 @@ public class MyPetDog{
 Here is another new piece of Java syntax, the `this` keyword. This keyword is a pretty useful bit of syntax, as it allows you to name the inputs to a methods identically to the names of the instance variables, but still differentiate between them. Let look at the line `this.name = name;`. In this line, the `this.name` is the instance variable, while the `name` after the `=` is the variable passed to the method. Think of `this` as referring to the specific object itself. If `this` is confusing, you can alternatively name the input variables differently, like below
 
 ```java
-public MyPetDog(string nameToSet, string breedToSet, int ageToSet){
+public MyPetDog(String nameToSet, String breedToSet, int ageToSet){
     name = nameToSet;
     breed = breedToSet;
     age = ageToSet;
