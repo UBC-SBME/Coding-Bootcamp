@@ -49,3 +49,25 @@ public MyPetDog(int age){
 }
 ```
 To differentiate between these constructors on object declaration/instantiation, it depends on the input variables given to it. For example, `MyPetDog x = new MyPetDog(“Cas”, “cocker spaniel”, “6”);` would use the constructor that lets us set the instance variables to what we want. `MyPetDog x = new MyPetDog();` uses the default constructor we made that sets the variables to “Fido”, “golden retriever” and “1”. This is a topic called overloading, and we will cover it in more detail later, for now just know it can be used to give a method multiple forms depending on the input variables.
+
+Our class should look like this then
+```java
+public class MyPetDog{
+    public String name;
+    public String breed;
+    public int age;
+
+    public MyPetDog(String name, String breed, int age){
+        this.name = name;
+        this.breed = breed;
+        this.age = age;
+    }
+    public MyPetDog(){
+        this(“Fido”,”golden retriever”, 1);
+    }
+    public MyPetDog(int age){
+        this(“Fido”,”golden retriever”, age);
+    }
+}
+```
+This gives our user plenty of options for when they make a new ```MyPetDog```, whether that be setting the exact ```name```, ```age```, and ```breed```, or just be satisfied with the defaults.
