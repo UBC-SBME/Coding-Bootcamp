@@ -1,9 +1,9 @@
-# ArrayList
+# List
 
 ## The Problem with Array Sizes
 In APSC 160 we learned that one can create arrays by declaring the size and then filling each element in the array. However, some of you might have already noticed that this quickly becomes annoying. You might have even thought "What if we don't know the size of the array?". Excellent question! Many clever computer scientists have also found this problem irritating, thus they have developed data structures that help solve this.
 
- The basic idea is that every element in the array points to another element in the same array. So if we want to extend the array, we have the last element of the array point to the new element.
+One possible solution is the linked list. The basic idea is that every element in the array points to another element in the same array. So if we want to extend the array, we have the last element of the array point to the new element.
 
 |  0 |  1 | 2 | 3 |
 |---|---|---|---|
@@ -17,6 +17,8 @@ If you want to add a new element, then:
 
 
 ## Enter ArrayList
+This is another implementation of a "resizable array" in Java. The beauty of object oriented programming is you do not need to know exactly how this is implemented to work with it, you just have to trust the description of the public methods. If you'd like to know the exact implementation you can look in the Java docs or asking on Piazza / Office hours.
+
 Traditionally, whenever we have worked with arrays in Java, they have always been a fixed size that we can't change. But to create **dynamic** and **mutable** arrays, we can use Java's `ArrayList`.
 
 The biggest advantages of using an `ArrayList` are:
