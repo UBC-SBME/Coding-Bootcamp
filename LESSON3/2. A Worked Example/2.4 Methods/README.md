@@ -21,4 +21,28 @@ public class MyPetDog{
     }
 }
 ```
-Fairly simple here. If we want to return a value, we can switch that `void` to whatever type we want, and add a `return` statement. If we want to have some sort of input variable (say the number of times the dog barks) we can add that in the brackets. This is almost identical to the C code you say in APSC 160, except for that `public` key word, which we will talk about very soon!
+Fairly simple here. If we want to return a value, we can switch that `void` to whatever type we want, and add a `return` statement. If we want to have some sort of input variable (say the number of times the dog barks) we can add that in the brackets. 
+
+```java
+public class MyPetDog{
+    public String name;
+    public String breed;
+    public int age;
+
+    public MyPetDog(String name, String breed, int age){
+        this.name = name;
+        this.breed = breed;
+        this.age = age;
+    }
+    public MyPetDog(){
+        this(“Fido”,”golden retriever”, 1);
+    }
+
+    public boolean bark(int num){
+        for (int count = 0; count < num; count++){
+            System.out.println(“woof”);
+        }
+        return true
+}
+```
+This is almost identical to the C code you say in APSC 160, except for that `public` key word, which we will talk about very soon!
