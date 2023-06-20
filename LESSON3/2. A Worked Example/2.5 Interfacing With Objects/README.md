@@ -21,7 +21,7 @@ public class MyPetDog{
         System.out.println(“woof”);
     }
     public static void main(String[] args){
-        MyPetDog Cas = new MyPetDog(“Cas”,”cockerspaniel”,8);
+        MyPetDog Cas = new MyPetDog(“Cas”,”cockerspaniel”,6);
         System.out.println(Cas.age);
         Cas.bark();
     }
