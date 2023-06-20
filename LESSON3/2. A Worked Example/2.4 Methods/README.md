@@ -43,6 +43,7 @@ public class MyPetDog{
             System.out.println(“woof”);
         }
         return true
+    }
 }
 ```
 This is almost identical to the C code you say in APSC 160, except for that `public` key word, which we will talk about very soon!
