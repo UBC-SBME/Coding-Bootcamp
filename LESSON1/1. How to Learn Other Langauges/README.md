@@ -4,7 +4,7 @@ Our first lesson may be the most important: how to learn other programming langu
 - Python 
 - Java 
 - C++ 
-- R TWO
+- R THREE
 
 Throughout your career, you might use other languages too, like Rust or JavaScript. This may seem daunting at first, but much like spoken languages it becomes easier to learn new languages after learning one. Now, this is our first path split. Some people prefer to learn a new coding language on its own by just programming a small program based on some idea they have. Others like to start with a language they know, and translate ideas to a new one. As an exercise, we will translate a program from C (where you have experience) to Java (which you will soon be using). If you prefer to skip the translation and learn Java from scratch, just skip ahead and try to translate the pseudocode provided at the bottom of this document directly into Java.
 
