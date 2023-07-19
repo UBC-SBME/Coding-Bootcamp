@@ -37,12 +37,9 @@ Gradle is a build tool. It is used to automate some steps needed during compilat
 
 IntelliJ IDEA is a fantastic Java development tool and is what we will use for the creation of programs both in this course and in CPEN 221. It has fantastic built-in tools for debugging, dealing with git, and code writing. 
 
-There are two options.
+1. Goto [this link](https://www.jetbrains.com/idea/), click the big blue download button, and download the ultimate version of IntelliJ, and then go to [this link](https://www.jetbrains.com/community/education/#students) and apply for a student license.
 
-1. Goto [this link](https://www.jetbrains.com/idea/), click the big blue download button and download the community version of IntelliJ
-2. Goto [this link](https://www.jetbrains.com/idea/), click the big blue download button, and download the ultimate version of IntelliJ, and then go to [this link](https://www.jetbrains.com/community/education/#students) and apply for a student license.
-
-Option 1 is certainly quicker, but option 2 will give you access to all of Jet Brains' various IDEs. In particular, they have a fantastic python IDE that has some key features locked behind a paywall that option 2 will alleviate. Other than that, the download page for IntelliJ lists what extra features the ultimate version has. See if they are worthwhile, and make your decision based on that. If you want to try website development on your own time, the ultimate addition does have some fantastic features for that!
+This will give you access to all of Jet Brains' various IDEs. In particular, they have a fantastic python IDE that has some key features locked behind a paywall. There was once a free community version but it seems to have been removed.
 
 ## TROUBLESHOOTING
 
