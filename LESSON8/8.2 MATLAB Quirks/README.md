@@ -35,7 +35,7 @@ What about if you want to access a portion of a vector, say elements 3 through 5
 
 What if you want an entire column? Well instead of typing `1:numberOfRows` you can just do `:`. So for example, if you want the entire first column of a matrix, type `matrix(:,1)`
 
-Finally, you can also generate more specific sequences with this. You would type something like `x:y:z`. You read this like "Make me a sequence starting at `x` and ending at most `z` where each value is `y` greater than the last. For example, `1:2:5` generates `1,3,5`. Note the at most. If you type `1:3:6` you still get the sequence `1,3,5`. Like all of this other stuff, you can use that sequence to get the 1st, 3rd, and 5th element of a matrix.
+Finally, you can also generate more specific sequences with this. You would type something like `x:y:z`. You read this like "Make me a sequence starting at `x` and ending at most `z` where each value is `y` greater than the last. For example, `1:2:5` generates `1,3,5`. Note the at most. If you type `1:2:6` you still get the sequence `1,3,5`. Like all of this other stuff, you can use that sequence to get the 1st, 3rd, and 5th element of a matrix.
 
 Essentially, when accessing data from a matrix (or vector or array), you can pass it a vector who's elements represent indices of that matrix, and you will get those values at those indices.
 
